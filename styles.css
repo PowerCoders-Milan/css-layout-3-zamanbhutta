@@ -1,1 +1,16 @@
 /* USE CSS GRID AND FLEX HERE */
+.container{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 1fr 8fr 1fr;
+    text-align: center;
+}
+header{
+    background-color: brown;
+}
+main{
+    background-color: chartreuse;
+}
+footer{
+    background-color: darkblue;
+}
